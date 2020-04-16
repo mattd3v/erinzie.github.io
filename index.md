@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 <!-- font-family: 'Bangers', cursive;
