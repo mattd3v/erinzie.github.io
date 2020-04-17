@@ -7,7 +7,7 @@ font-family: 'Montserrat', sans-serif; -->
   body {
 background-color: rgba(150, 30, 10, 0.1);
 font-family: 'Montserrat', sans-serif;
-margin: 20em 200em 20em 200em;
+margin: 20em 100em 20em 100em;
 border: solid;
   width: 75vmax;
   }
