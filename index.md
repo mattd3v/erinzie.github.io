@@ -7,7 +7,7 @@ font-family: 'Montserrat', sans-serif; -->
   body {
 background-color: rgba(150, 30, 10, 0.1);
 font-family: 'Montserrat', sans-serif;
-margin: 20px 200px 20px 200px;
+margin: 20em 200em 20em 200em;
 border: solid;
   width: 75vmax;
   }
@@ -23,7 +23,7 @@ font-size: 30px;
 p {
 font-size: 20px;
 text-align: justify;
-margin: 20px 100px 20px 100px;
+margin: 20em 100em 20em 100em;
 }
   #navbar {
 position: fixed;
