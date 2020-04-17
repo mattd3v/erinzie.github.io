@@ -9,6 +9,7 @@ background-color: rgba(150, 30, 10, 0.1);
 font-family: 'Montserrat', sans-serif;
 margin: 20px 200px 20px 200px;
 border: solid;
+  width: 75vmax;
   }
 h1 {
 font-family: 'Bangers', cursive;
@@ -57,7 +58,6 @@ background-color: rgba(150, 30, 10, 0.1);
       </ul>
     </nav>
   </header>
-<hr>
 <div>
 <h2>Welcome To My Page!</h2>
   <p>Hi my name is Erin, and I hope to help any new mothers out there who have found themselves in similar situations to my own! 
