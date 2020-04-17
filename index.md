@@ -9,7 +9,7 @@ background-color: rgba(150, 30, 10, 0.1);
 font-family: 'Montserrat', sans-serif;
 margin: 20em 100em 20em 100em;
 border: solid;
-width: 100vmax;
+width: 75vmax;
   }
 h1 {
 font-family: 'Bangers', cursive;
