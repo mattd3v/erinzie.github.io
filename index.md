@@ -43,7 +43,7 @@ left: 0px;
   a {
     text-decoration: none;
   }
-div {
+section {
 background-color: rgba(150, 30, 10, 0.1);
 }
 </style>
@@ -58,7 +58,7 @@ background-color: rgba(150, 30, 10, 0.1);
       </ul>
     </nav>
   </header>
-<div>
+<section>
 <h2>Welcome To My Page!</h2>
   <p>Hi my name is Erin, and I hope to help any new mothers out there who have found themselves in similar situations to my own! 
 <br>
@@ -72,6 +72,6 @@ Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Sit amet jus
 
 Feugiat pretium nibh ipsum consequat nisl. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Feugiat scelerisque varius morbi enim nunc. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Nam libero justo laoreet sit amet. Vestibulum lorem sed risus ultricies tristique nulla. Lacus vel facilisis volutpat est velit egestas dui id ornare. Nulla aliquet enim tortor at auctor urna nunc id. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. Viverra mauris in aliquam sem. Sed tempus urna et pharetra.
 </p>
-</div>
+</section>
 </body>
 </html>
