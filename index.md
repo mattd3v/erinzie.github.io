@@ -52,7 +52,7 @@ padding: 20px 100px 20px 100px;
     <h1>Groovy Guru</h1>
     <nav id="navbar">
       <ul>
-        <li><a href="index.md">Home</a></li>
+        <li><a href="erinzie.github.io">Home</a></li>
 <li><a href="pages.html">Pages</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
