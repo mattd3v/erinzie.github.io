@@ -29,9 +29,24 @@ p {
 font-size: 20px;
 text-align: justify;
 }
-  #navbar {
+#navbar {
 position: fixed;
 top: 0px;
+left: 0px;
+    width: 100%;
+    background-color: rgba(100, 30, 75, 1);
+color: #FFFFFF;
+}
+#navbar2 {
+position: fixed;
+top: 30px;
+left: 0px;
+    width: 100%;
+    background-color: rgba(100, 30, 75, 0.5);
+  }
+#navbar3 {
+position: static;
+bottom: 0px;
 left: 0px;
     width: 100%;
     background-color: rgba(100, 30, 75, 0.5);
@@ -46,16 +61,18 @@ left: 0px;
   }
   a {
     text-decoration: none;
+color: #000000;
   }
-section {
-background-color: rgba(150, 30, 10, 0.1);
+.section1 {
+background-color: #FFFFFF;
 padding: 20px 100px 20px 100px;
   border: solid;
 }
  #right {
 position: fixed;
-top: 0px;
+top: 30px;
 right: 0px;
+bottom: 0px;
 width: 10%;
     }
     aside {
@@ -66,11 +83,23 @@ text-align: center;
 .pics {
 text-align: center;
 }
+   @media screen (min-width: 300px) {
+  img {
+  max-height: 75%;
+  width: auto;
+}
+  }
 </style>
 <body>
   <header>
     <h1>Motherhood Groove</h1>
     <nav id="navbar">
+      <ul>
+<center>Click here for my Instagram guide hacks</center>
+      </ul>
+    </nav>
+
+    <nav id="navbar2">
       <ul>
         <li><a href="index.html">Home</a></li>
 <li><a href="pages.html">Pages</a></li>
@@ -88,7 +117,7 @@ text-align: center;
 <li><a href="article7.html">Article 7</a></li>-->
   </aside>
   </header>
-<section>
+<section class="section1">
 <center><h2><a href="pages.html">Pages</a></h2></center>
 <p>Posted: 04/19/2020
 <h3 id="article1">Here’s what to expect if you feel like you have no idea how to prepare for your unborn baby</h3>   
@@ -177,5 +206,13 @@ Now that you have maybe a little better idea of the way things are changing, I c
   </p>
 <h4>***As an Amazon Associate I earn from qualifying purchases</h4>
 </section>
+  <br>
+  <nav id="navbar3">
+      <ul><center>
+        <li>Instagram: YungHotMilf</li>
+<li>Pinterest: Crystal Edge Shop</li>
+        <li>Email: crystal.edge.shop@gmail.com</li>
+        </center></ul>
+    </nav>
 </body>
 </html>
