@@ -66,16 +66,13 @@ padding: 20px 100px 20px 100px;
 border: solid;
   box-shadow: 10px 10px 8px #888888;
 }
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
+.row {
+  display: flex;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column {
+  flex: 25%;
+  padding: 5px;
 }
 @media screen and (max-width: 500px) {
   .column {
@@ -120,9 +117,9 @@ border: solid;
   <div class="column">
     <img src="motherhood-groove-mom-baby-3.jpg" alt="Motherhood Groove Gallery" style="width:100%">
   </div>
-    <div class="column">
+   <!-- <div class="column">
     <img src="motherhood-groove-mom-baby-4.jpg" alt="Motherhood Groove Gallery" style="width:100%">
-  </div>
+  </div>-->
       <div class="column">
     <img src="motherhood-groove-mom-baby-5.jpg" alt="Motherhood Groove Gallery" style="width:100%">
   </div>
