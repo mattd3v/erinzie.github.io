@@ -66,13 +66,15 @@ padding: 20px 100px 20px 100px;
 border: solid;
   box-shadow: 10px 10px 8px #888888;
 }
-.row {
-  display: flex;
-}
-
 .column {
-  flex: 25%;
+  float: left;
+  width: 33.33%;
   padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 @media screen and (max-width: 500px) {
   .column {
