@@ -89,6 +89,11 @@ text-align: center;
  .gallery {
 	columns: 100px 2;
 	}
+	.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 	
    @media screen (min-width: 300px) {
   img {
@@ -142,12 +147,12 @@ There are so many tools you can use to grow your instagram and soo many classes,
 <ol>
 <li>Go Pro -- If growing your instagram is important to you, the first thing you should do is change your page to a business account if you haven’t already. This allows you to see really helpful analytics like how many accounts you’re reaching, your impressions, the trends of how many people are unfollowing and following you each day, and much more! You can easily do this by going to your Settings, Account, and then “Switch to Business Account” at the bottom. It will take a few days to a week usually until you start seeing all this data but when you do it’ll feel great!
 </li>
-	<div class="gallery">
+	<div class="row">
 		<figure class="gallery__itemgallery__item--1">
 		<img src="instructions1.PNG" class="pics">
 		</figure>
 		
-		<figure class="gallery__itemgallery__item--1">
+		<figure class="gallery__itemgallery__item--2">
 		<img src="instructions2.PNG" class="pics">
 		</figure>
 	</div>
